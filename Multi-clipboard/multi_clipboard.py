@@ -71,6 +71,8 @@ get : for loading the key from the clipboard.
 			self.load()
 		elif (self.command == "list"):
 			self.listClipboard()
+		else:
+			print("Wrong argument.")
 
 def main():
 	if (len(sys.argv) != 2):
